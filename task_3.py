@@ -5,8 +5,8 @@ class PointsForPlace:
     def get_points_for_place(place):
 
       if place > 100:
-        print("Баллы начисляются только первым 100 участникам")
-        return 0
+         print("Баллы начисляются только первым 100 участникам")
+         return 0
       elif place < 1:
          print("Спортсмен не может занять нулевое или отрицательное место")
          return 0
